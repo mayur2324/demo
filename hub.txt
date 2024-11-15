@@ -1,0 +1,59 @@
+sudo apt install git 
+
+git --version
+
+git config --global user.name "mayur"
+
+git config --global user.email "mail"
+
+login to GitHub
+
+create a new repository on github
+
+copy repository url from github
+git clone url
+cd <reponame)
+
+git status
+
+type some mesiage into README.md file  
+ then goto Terminal.
+
+7) git status.
+
+8) git add.
+
+9) git commit -m "change3 done"
+
+10) git branch branch 2"
+
+11) git checkout branch 2
+
+12) git push origin <branch-name>
+
+13) Goto Github- right click > settings > Developer setting > personal  access token > token classic > generate new token classic > click check box (except workflow)→ generate token copy id of token.
+ Goto Terminal
+
+14) git remote set furd origin http: paste token id @github.com/paste(username/reponame)
+
+15) git push origin <branch-name>
+
+16 ) Goto Github:
+
+github pull request option New pull reques → соmрarе > branch-name > create pull request > merge pull request > confirm merge
+
+17) git status
+
+If we want to make changes on main branchth add some content on README.md file of sove it
+
+18) git checkout main
+
+19) git add.
+
+20) git commit -m "change done"
+
+Scanned with OKEN Scanner
+
+21) git push origin main
+
+22) git fetch origin main
