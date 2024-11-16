@@ -1,3 +1,4 @@
+mvn name folder and open ter from there
 sudo apt update
 sudo apt install maven
 mvn -version
@@ -8,7 +9,7 @@ Step 1 mvn archetype:generate -DgroupId=com.example.demo -DartifactId=DemoProjec
 Step 2 Navigate to the Project Directory
 cd DemoProject
 Step 3
-Tree
+Tree (working dir)
 
 Step 4
 Property file in pom.xml
@@ -16,7 +17,7 @@ Property file in pom.xml
     <maven.compiler.source>1.6</maven.compiler.source>
     <maven.compiler.target>1.6</maven.compiler.target>
 </properties>
-
+dep^
 Step 5
 mvn compile
 Step 6
@@ -40,7 +41,7 @@ Add goal file in pom
         </plugin>
     </plugins>
 </build>
-
+depen below
 Step 7
 mvn exec:java
 Step 8
