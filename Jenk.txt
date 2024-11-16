@@ -1,0 +1,45 @@
+Jenkins 
+CI
+sudo systemctl status Jenkins
+ 
+Create folder (jenkins)
+open terminal
+ng rock http8080 
+
+copy the given url (free.app) 
+
+paste it on browser
+
+redirected to jenlin login
+
+Open GitHub 
+Copy project url 
+
+goto jenkin
+new item create project(freestyle)
+source code managemwnt(git)
+git hub url paste
+
+ cut master branches  > main 
+from build trigger - GitHub hook triger pulling
+apply and savr
+
+goto GitHub
+ 
+repo > setting > webhook > add > free.app url paste here and GitHub -webhook/ 
+json 
+send me everything
+add webhook
+buid now 
+
+
+CD
+config 
+build step > excecutive shell > cp -r */var/www/html 
+ 
+build now
+
+go to browser 
+0.0.0.0
+
+
